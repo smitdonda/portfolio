@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+.paratag{
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* header */ 
+.header-title{
+    color:azure !important;
+    border-bottom:2px solid transparent;
+}
+.header-title:hover{
+    color:azure !important;
+    border-bottom: 2px solid azure ;
+}
+.header-line{
+    background-color: #1a1244 ;
+}
+
+/* home parts*/
+.home{
+    word-wrap: wrap;
+    color:azure;
+}
+
+.button{
+    color:azure;
+}
+.button:hover{
+    color:azure;
+    background-color:#1a1244
+}
+@media(max-width:500px) {
+
+    .main-images{
+        text-align: center;
+        width:350px;
+        height:350px;
+    }
+}
+
+/* about-me */
+ .about{  
+    align-items: center;
+    color:azure;
+}
+@media(max-width:1000px) {
+
+    .code-images{
+        text-align: center;
+        width:400px;
+        height:400px;
+    }
+}
+
+@media(max-width:650px) {
+
+    .code-images{
+        text-align: center;
+        width:450px;
+        height:450px;
+    }
+} 
+@media(max-width:500px) {
+
+    .code-images{
+        text-align: center;
+        width:350px;
+        height:350px;
+    }
+} 
+
+
+/*skiil  */
+
+.skiil-part{
+    display: flex;
+    flex-direction: row;
+    word-wrap: wrap;
+    font-size:20px;
+}
+@media(max-width:450px) {
+
+    .skiil{
+        font-size:18px;
+        min-width:200px;
+
+    }
+}
+
+/* projcts */
+@media(max-width:500px) {
+
+    .project-img{
+        width:350px;
+    }
+}
