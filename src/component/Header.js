@@ -1,9 +1,10 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import {useNavigate} from "react-router-dom";
 import DownloadIcon from "@mui/icons-material/Download";
+import {Navbar,Nav} from "react-bootstrap"
 
 function Header() {
+  let navigate = useNavigate();
   return (
     <>
       <div className="paratag" style={{ width: "100%" }}>
@@ -29,19 +30,19 @@ function Header() {
             className="justify-content-end text-center"
           >
             <Nav>
-              <Nav.Link href="/home" className="header-title ">
+              <Nav.Link onClick={()=>navigate("/")} className="header-title ">
                 Home
               </Nav.Link>
               &nbsp;&nbsp;
-              <Nav.Link href="/aboutme" className="header-title ">
+              <Nav.Link onClick={()=>navigate("/aboutme")} className="header-title ">
                 About me
               </Nav.Link>
               &nbsp;&nbsp;
-              <Nav.Link href="/skills" className="header-title ">
+              <Nav.Link onClick={()=>navigate("/skills")} className="header-title ">
                 Skills
               </Nav.Link>
               &nbsp;&nbsp;
-              <Nav.Link href="/project" className="header-title ">
+              <Nav.Link onClick={()=>navigate("/project")} className="header-title ">
                 My Work
               </Nav.Link>
               &nbsp;&nbsp;
