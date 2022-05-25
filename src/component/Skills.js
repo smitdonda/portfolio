@@ -1,72 +1,105 @@
 import React from "react";
-import { Chart } from "react-google-charts";
+import ProgressBar from "react-bootstrap/ProgressBar";
 function Skills() {
-  const data = [
-    ["Task", "Hours per Day"],
-    ["HMTL 80%", 80],
-    ["CSS 80%", 80],
-    ["JS 70%", 70],
-    ["Bootstrap 80%", 80],
-    ["React js 80%", 80],
-  ];
+  const html = 80;
+  const css = 80;
+  const js = 80;
+  const bootstrap = 80;
+  const react = 80;
+  const nodejs = 70;
 
-  const options = {
-    is3D: true,
-    backgroundColor: "#343a40",
-    legendTextStyle: { color: "azure" },
-    titleTextStyle: { color: "azure" },
-  };
   return (
-    <div style={{ color: "azure" }} className="container paratag">
-      <div className="d-flex justify-content-center align-items-center p-4">
+    <div style={{ color: "azure" }} className="container paratag portfolio">
+      <div className="p-4">
         <div>
           <div className="mt-5">
             <h2>My Skills</h2>
+            <hr />
             <p className=" h4">
               Here are a few technologies I've been working with recently:
             </p>
           </div>
-          <div className="skiil-part float-left row">
-            <ul type="none" className="col skill" style={{width: '400px'}}>
-              <li>
-                <img src="/image/html-5-48.png" alt="HTML" />
-                HMTL
-              </li>
-              <li>
-                <img src="/image/css3-48.png" alt="CSS" />
-                CSS
-              </li>
-              <li>
-                <img src="/image/javascript-48.png" alt="javascript" />
-                JS
-              </li>
-            </ul>
-            <ul type="none" className="col">
-              <li>
-                <img src="/image/bootstrap-48.png" alt="Bootstrap" />
-                Bootstrap
-              </li>
-              <li>
-                <img src="/image/react-native-48.png" alt="React Js" />
-                React js
-              </li>
-              <li>
-                <img src="/image/nodejs-48.png" alt="Node Js" />
-                Node js
-              </li>
-            </ul>
+          <div className="skills-div" style={{ maxWidth: "600px" }}>
+            <div className="d-flex flex-row align-items-center p-2">
+              <img src="/image/html-5-48.png" alt="HTML" />
+              &nbsp;HTML&nbsp;
+              <div className="ml-auto">
+                <ProgressBar
+                  variant="SOME_NAME"
+                  now={html}
+                  label={`${html}%`}
+                  style={{ width: "450px", height: "20px" }}
+                  className="progressbar"
+                />
+              </div>
+            </div>
+            <div className="d-flex flex-row align-items-center p-2">
+              <img src="/image/css3-48.png" alt="CSS" />
+              &nbsp;CSS&nbsp;
+              <div className="ml-auto">
+                <ProgressBar
+                  variant="SOME_NAME"
+                  now={css}
+                  label={`${css}%`}
+                  style={{ width: "450px", height: "20px" }}
+                  className="progressbar"
+                />
+              </div>
+            </div>
+            <div className="d-flex flex-row align-items-center p-2">
+              <img src="/image/javascript-48.png" alt="javascript" />
+              &nbsp;JS&nbsp;
+              <div className="ml-auto">
+                <ProgressBar
+                  variant="SOME_NAME"
+                  now={js}
+                  label={`${js}%`}
+                  style={{ width: "450px", height: "20px" }}
+                  className="progressbar"
+                />
+              </div>
+            </div>
+            <div className="d-flex flex-row align-items-center p-2">
+              <img src="/image/bootstrap-48.png" alt="Bootstrap" />
+              &nbsp;Bootstrap&nbsp;
+              <div className="ml-auto">
+                <ProgressBar
+                  variant="SOME_NAME"
+                  now={bootstrap}
+                  label={`${bootstrap}%`}
+                  style={{ width: "450px", height: "20px" }}
+                  className="progressbar"
+                />
+              </div>
+            </div>
+            <div className="d-flex flex-row align-items-center p-2">
+              <img src="/image/react-native-48.png" alt="React Js" />
+              &nbsp;React js&nbsp;
+              <div className="ml-auto">
+                <ProgressBar
+                  variant="SOME_NAME"
+                  now={react}
+                  label={`${react}%`}
+                  style={{ width: "450px", height: "20px" }}
+                  className="progressbar"
+                />
+              </div>
+            </div>
+            <div className="d-flex flex-row align-items-center p-2">
+              <img src="/image/nodejs-48.png" alt="Node Js" />
+              &nbsp;Node js&nbsp;
+              <div className="ml-auto">
+                <ProgressBar
+                  variant="SOME_NAME"
+                  now={nodejs}
+                  label={`${nodejs}%`}
+                  style={{ width: "450px", height: "20px" }}
+                  className="progressbar"
+                />
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <Chart
-          className="text-white"
-          chartType="PieChart"
-          data={data}
-          options={options}
-          width={"100%"}
-          height={"400px"}
-        />
       </div>
     </div>
   );

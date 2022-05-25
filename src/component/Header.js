@@ -1,16 +1,17 @@
 import React from "react";
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import DownloadIcon from "@mui/icons-material/Download";
-import {Navbar,Nav} from "react-bootstrap"
+import { Navbar, Nav } from "react-bootstrap";
 
 function Header() {
   let navigate = useNavigate();
   return (
     <>
-      <div className="paratag" style={{ width: "100%" }}>
+      <div className="paratag">
         <Navbar
           collapseOnSelect
           expand="md"
+          fixed="top"
           className="header-line"
           variant="dark"
         >
@@ -23,46 +24,53 @@ function Header() {
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
-            className="mr-2"
+            className="mr-2" style={{ fontSize : "16px" }}
           />
           <Navbar.Collapse
             id="responsive-navbar-nav"
             className="justify-content-end text-center"
           >
-            <Nav>
-              <Nav.Link onClick={()=>navigate("/")} className="header-title ">
+            <Nav className="float-left">
+              <Nav.Link onClick={() => navigate("/")} className="header-title ">
                 Home
               </Nav.Link>
               &nbsp;&nbsp;
-              <Nav.Link onClick={()=>navigate("/aboutme")} className="header-title ">
+              <Nav.Link
+                onClick={() => navigate("/aboutme")}
+                className="header-title "
+              >
                 About me
               </Nav.Link>
               &nbsp;&nbsp;
-              <Nav.Link onClick={()=>navigate("/skills")} className="header-title ">
+              <Nav.Link
+                onClick={() => navigate("/skills")}
+                className="header-title "
+              >
                 Skills
               </Nav.Link>
               &nbsp;&nbsp;
-              <Nav.Link onClick={()=>navigate("/project")} className="header-title ">
+              <Nav.Link
+                onClick={() => navigate("/project")}
+                className="header-title "
+              >
                 My Work
               </Nav.Link>
               &nbsp;&nbsp;
               <Nav.Link
-                href="https://mail.google.com/mail/u/0/#inbox?compose=new"
-                target="_blank"
+                onClick={() => navigate("/contactme")}
                 className="header-title mr-1"
               >
                 Contact Me
               </Nav.Link>
               &nbsp;&nbsp;
               <Nav.Link
-                href="https://drive.google.com/file/d/1Zr9GA9FSwxFFhmuwpVIVNl9Oofi_wRLg/view?usp=sharing"
+                href="https://drive.google.com/file/d/1nxtCKQJg0Pa707h3CbBPWPnviCks2Dol/view?usp=sharing"
                 className="header-title mr-1"
                 target="_blank"
                 download
               >
                 Resume <DownloadIcon />
               </Nav.Link>
-              &nbsp;&nbsp;
             </Nav>
           </Navbar.Collapse>
         </Navbar>

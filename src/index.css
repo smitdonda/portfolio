@@ -6,28 +6,31 @@
 }
 /* header */ 
 .header-title{
-    color:azure !important;
+    color:whitesmoke !important;
     border-bottom:2px solid transparent;
 }
 .header-title:hover{
-    color:azure !important;
-    border-bottom: 2px solid azure ;
+    color:whitesmoke !important;
+    border-bottom: 2px solid whitesmoke ;
 }
 .header-line{
     background-color: #1a1244 ;
 }
 
+.portfolio{
+    margin-top:80px !important
+}
 /* home parts*/
 .home{
     word-wrap: wrap;
-    color:azure;
+    color:whitesmoke;
 }
 
 .button{
-    color:azure;
+    color:whitesmoke;
 }
 .button:hover{
-    color:azure;
+    color:whitesmoke;
     background-color:#1a1244
 }
 @media(max-width:500px) {
@@ -42,7 +45,7 @@
 /* about-me */
  .about{  
     align-items: center;
-    color:azure;
+    color:whitesmoke;
 }
 @media(max-width:1000px) {
 
@@ -73,25 +76,56 @@
 
 /*skiil  */
 
-.skiil-part{
-    display: flex;
-    flex-direction: row;
-    word-wrap: wrap;
-    font-size:20px;
+@media(max-width:900px) {
+
+    .skills-div{
+        width:500px;
+    }
+    .progressbar{
+        max-width:360px;
+    }
 }
-@media(max-width:450px) {
+@media(max-width:750px) {
 
-    .skiil{
-        font-size:18px;
-        min-width:200px;
+    .skills-div{
+        width:400px;
+    }
+    .progressbar{
+        max-width:300px;
+    }
+}
+@media(max-width:580px) {
 
+    .skills-div{
+        width:350px;
+    }
+    .progressbar{
+        max-width:200px;
+    }
+}
+@media(max-width:400px) {
+
+    .skills-div{
+        width:300px;
+    }
+    .progressbar{
+        max-width:140px;
     }
 }
 
 /* projcts */
-@media(max-width:500px) {
+@media(max-width:700px) {
 
     .project-img{
-        width:350px;
+        width:400px;
     }
+}
+
+/* progressBAR */
+.bg-SOME_NAME{
+    background-color: #1a1244 !important;
+}
+/* contact-me */
+.contact-me{
+    margin-top:80px !important
 }

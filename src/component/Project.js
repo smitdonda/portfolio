@@ -1,8 +1,9 @@
 import React from "react";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 function project() {
   return (
-    <div className="container paratag" style={{ color: "azure" }}>
+    <div className="container paratag portfolio" style={{ color: "azure" }}>
       <div className="mt-4">
         <h1 className="font-weight-bold">My Project</h1>
       </div>
@@ -36,7 +37,12 @@ function project() {
                 1. Inventory Billing
               </a>
             </p>
-            <div className="mt-2 mb-3 d-flex flex-row justify-content-around align-items-center">
+            <p style={{ fontSize: "18px" }}>
+              In this project we can generate bill in form of PDF. By this
+              project we can Edit,Delete and regenerate our PDF. add also
+              available for all gsts tax.
+            </p>
+            <div className="mt-2 mb-3 d-flex flex-row">
               <img src="/image/react-native-48.png" alt="React Js" />
               &nbsp;&nbsp;&nbsp;
               <img src="/image/nodejs-48.png" alt="Node Js" />
@@ -46,19 +52,30 @@ function project() {
             </div>
             <a
               href="https://github.com/smitdonda/Inventory-Billing-Client"
-              className="btn text-while border border-light button shadow-non"
+              className="btn btn-sm border border-light button shadow-none"
               target="_blank"
               rel="noreferrer"
             >
-              Frantend
+              <GitHubIcon />
+              &nbsp;Frantend
             </a>
             &nbsp;&nbsp;
             <a
               href="https://github.com/smitdonda/Inventory-Billing-Server"
-              className="btn text-while border border-light button shadow-non"
+              className="btn btn-sm border border-light button shadow-none"
               target="blank"
             >
-              Backend
+              <GitHubIcon />
+              &nbsp;Backend
+            </a>
+            &nbsp;&nbsp;
+            <a
+              href="https://billing-book.netlify.app/"
+              className="btn btn-sm border border-light button shadow-none"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View
             </a>
           </div>
         </div>
@@ -92,7 +109,12 @@ function project() {
                 2. Products Hub
               </a>
             </p>
-            <div className="mt-2 mb-3 d-flex flex-row justify-content-around align-items-center">
+            <p style={{ fontSize: "18px" }}>
+              In this website login and logout facilities are available.after
+              that it will show the category of the products, add to cart and
+              Google pay payment method is available here.
+            </p>
+            <div className="mt-2 mb-3">
               <img src="/image/react-native-48.png" alt="React Js" />
               &nbsp;&nbsp;&nbsp;
               <img src="/image/nodejs-48.png" alt="Node Js" />
@@ -102,19 +124,30 @@ function project() {
             </div>
             <a
               href="https://github.com/smitdonda/Products-Hub-Client"
-              className="btn text-while border border-light button shadow-non"
+              className="btn btn-sm border border-light button shadow-none"
               target="_blank"
               rel="noreferrer"
             >
-              Frantend
+              <GitHubIcon />
+              &nbsp;Frantend
             </a>
             &nbsp;&nbsp;
             <a
               href="https://github.com/smitdonda/Products-Hub-Server"
-              className="btn text-while border border-light button shadow-non"
+              className="btn btn-sm border border-light button shadow-none"
               target="blank"
             >
-              Backend
+              <GitHubIcon />
+              &nbsp;Backend
+            </a>
+            &nbsp;&nbsp;
+            <a
+              href="https://products-hub776.netlify.app"
+              className="btn btn-sm border border-light button shadow-none"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View
             </a>
           </div>
         </div>
@@ -131,7 +164,7 @@ function project() {
               className="project-img"
               src="/image/myproducts.png"
               width="450px"
-              alt=""
+              alt="myproducts"
             />
           </a>
         </div>
@@ -148,7 +181,12 @@ function project() {
                 3. My Products
               </a>
             </p>
-            <div className="mt-2 mb-3 d-flex flex-row justify-content-around align-items-center">
+            <p>
+              In this website has all the features a possible Flipkart website
+              needs, including the ability to add products to cart, payments
+              with G-Pay provide the login flow, and show products by category.
+            </p>
+            <div className="mt-2 mb-3 ">
               <img src="/image/react-native-48.png" alt="React Js" />
               &nbsp;&nbsp;&nbsp;
               <img src="/image/nodejs-48.png" alt="Node Js" />
@@ -158,19 +196,30 @@ function project() {
             </div>
             <a
               href="https://github.com/smitdonda/My-Products-Client"
-              className="btn text-while border border-light button shadow-non"
+              className="btn btn-sm border border-light button shadow-none"
               target="_blank"
               rel="noreferrer"
             >
-              Frantend
+              <GitHubIcon />
+              &nbsp;Frantend
             </a>
             &nbsp;&nbsp;
             <a
               href="https://github.com/smitdonda/My-Products-Server"
-              className="btn text-while border border-light button shadow-non"
+              className="btn btn-sm border border-light button shadow-none"
               target="blank"
             >
-              Backend
+              <GitHubIcon />
+              &nbsp;Backend
+            </a>
+            &nbsp;&nbsp;
+            <a
+              href="https://my-products03590.netlify.app"
+              className="btn btn-sm border border-light button shadow-none"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View
             </a>
           </div>
         </div>
@@ -179,15 +228,15 @@ function project() {
       <div className="d-flex flex-row justify-content-center align-items-center row mt-5 mb-5 ">
         <div className="col text-center">
           <a
-            href="https://desi-hishab-123.netlify.app"
+            href="https://disney-plus-hotstar123.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
             <img
               className="project-img"
-              src="/image/desi-hishab.png"
+              src="/image/disenyhotstar.png"
               width="450px"
-              alt=""
+              alt="desi-hishab"
             />
           </a>
         </div>
@@ -195,16 +244,21 @@ function project() {
           <div>
             <p style={{ fontSize: "22px" }}>
               <a
-                href="https://desi-hishab-123.netlify.app"
+                href="https://disney-plus-hotstar123.netlify.app"
                 target="_blank"
                 rel="noreferrer"
                 className="text-decoration-none"
                 style={{ color: "azure" }}
               >
-                4. Desi Hisab
+                4. Diseny+ Hotstar
               </a>
             </p>
-            <div className="mt-2 mb-3 d-flex flex-row justify-content-around align-items-center">
+            <p>
+              In this project subscribe purchase method available . you can
+              watch only trailers, you can search trailers of any Movies and Tv
+              Shows And add your favourite to watch List.
+            </p>
+            <div className="mt-2 mb-3">
               <img src="/image/react-native-48.png" alt="React Js" />
               &nbsp;&nbsp;&nbsp;
               <img src="/image/nodejs-48.png" alt="Node Js" />
@@ -213,20 +267,31 @@ function project() {
               &nbsp;&nbsp;&nbsp;
             </div>
             <a
-              href="https://github.com/smitdonda/desi-hisab-client"
-              className="btn text-while border border-light button shadow-non"
+              href="https://github.com/smitdonda/Disney-Hotstar-Client"
+              className="btn btn-sm border border-light button shadow-none"
               target="_blank"
               rel="noreferrer"
             >
-              Frantend
+              <GitHubIcon />
+              &nbsp;Frantend
             </a>
             &nbsp;&nbsp;
             <a
-              href="https://github.com/smitdonda/desi-hisab-server"
-              className="btn text-while border border-light button shadow-non"
+              href="https://github.com/smitdonda/Disney-Hotstar-Server"
+              className="btn btn-sm border border-light button shadow-none"
               target="blank"
             >
-              Backend
+              <GitHubIcon />
+              &nbsp;Backend
+            </a>
+            &nbsp;&nbsp;
+            <a
+              href="https://disney-plus-hotstar123.netlify.app"
+              className="btn btn-sm border border-light button shadow-none"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View
             </a>
           </div>
         </div>
