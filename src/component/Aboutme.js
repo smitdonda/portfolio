@@ -22,7 +22,7 @@ function Aboutme() {
                 Frontend, Node js for backend, MongoDB for databases.
               </p>
               <a
-                href="https://drive.google.com/file/d/1nxtCKQJg0Pa707h3CbBPWPnviCks2Dol/view?usp=sharing"
+                href="https://drive.google.com/file/d/1jna0K1__thYrCDhY2zL2Az4ky1-iyaKc/view?usp=sharing"
                 className="btn text-while border border-white button shadow-none mt-2"
                 target="_blank"
                 rel="noreferrer"
