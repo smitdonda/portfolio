@@ -7,6 +7,7 @@ function Skills() {
   const bootstrap = 80;
   const react = 80;
   const nodejs = 70;
+  const mongodb = 70;
 
   return (
     <div style={{ color: "azure" }} className="container paratag portfolio">
@@ -93,6 +94,20 @@ function Skills() {
                   variant="SOME_NAME"
                   now={nodejs}
                   label={`${nodejs}%`}
+                  style={{ width: "450px", height: "20px" }}
+                  className="progressbar"
+                />
+              </div>
+            </div>
+
+            <div className="d-flex flex-row align-items-center p-2">
+              <img src="/image/mongodb-48.png" alt="Mongo DB" />
+              &nbsp;Mongo DB&nbsp;
+              <div className="ml-auto">
+                <ProgressBar
+                  variant="SOME_NAME"
+                  now={mongodb}
+                  label={`${mongodb}%`}
                   style={{ width: "450px", height: "20px" }}
                   className="progressbar"
                 />
