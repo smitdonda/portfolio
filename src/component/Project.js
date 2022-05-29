@@ -123,7 +123,7 @@ function project() {
               &nbsp;&nbsp;&nbsp;
             </div>
             <a
-              href="https://github.com/smitdonda/My-Products-Client"
+              href="https://github.com/smitdonda/EShop-Spot-Client"
               className="btn btn-sm border border-light button shadow-none"
               target="_blank"
               rel="noreferrer"
@@ -133,7 +133,7 @@ function project() {
             </a>
             &nbsp;&nbsp;
             <a
-              href="https://github.com/smitdonda/My-Products-Server"
+              href="https://github.com/smitdonda/EShop-Spot-Server"
               className="btn btn-sm border border-light button shadow-none"
               target="blank"
             >
