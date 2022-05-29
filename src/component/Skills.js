@@ -13,7 +13,7 @@ function Skills() {
     <div style={{ color: "azure" }} className="container paratag portfolio">
       <div className="p-4">
         <div>
-          <div className="mt-5">
+          <div>
             <h2>My Skills</h2>
             <hr />
             <p className=" h4">
