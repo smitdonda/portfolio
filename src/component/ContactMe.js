@@ -13,9 +13,15 @@ function ContactMe() {
         <div>
           <div className="text-center">
             <h1>Contact Me</h1>
+            <h3>
+              <span style={{ fontSize: "40px" }}>&#10508;</span>&nbsp;&nbsp;Get
+              in Touch&nbsp;&nbsp;
+              <span style={{ fontSize: "40px" }}>&#10509;</span>
+            </h3>
+            <hr />
           </div>
-          <div className="d-flex flex-row justify-content-center align-items-center row mt-5">
-            <div className="col d-flex flex-row justify-content-center align-items-center">
+          <div className="d-flex flex-row justify-content-center align-items-center row">
+            <div className="col mb-3">
               <div>
                 <h4>Let's build Something Great</h4>
                 <div>
@@ -64,17 +70,22 @@ function ContactMe() {
                 </div>
               </div>
             </div>
-            <div className="col d-flex flex-row justify-content-center align-items-center mt-3">
+            <div className="col">
               <div>
-                <h4>Get in Touch</h4>
                 <h4>Mail for any other queries </h4>
                 <div>
                   <div className="mt-4 d-flex flex-row align-items-center">
                     <div>
-                      <img
-                        src="https://img.icons8.com/color/48/000000/gmail-new.png"
-                        alt=""
-                      />
+                      <a
+                        href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img
+                          src="https://img.icons8.com/color/48/000000/gmail-new.png"
+                          alt="Gmail"
+                        />
+                      </a>
                     </div>
                     <div style={{ fontSize: "18px" }}>
                       <span>Email</span>
@@ -93,11 +104,17 @@ function ContactMe() {
                   </div>
                   <div className="mt-4 d-flex flex-row align-items-center">
                     <div>
-                      <img
-                        src="https://img.icons8.com/color/48/000000/linkedin.png"
-                        alt="Linkedin"
-                        style={{ width: "60px" }}
-                      />
+                      <a
+                        href="https://www.linkedin.com/in/smit-donda-113a13217"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img
+                          src="https://img.icons8.com/color/48/000000/linkedin.png"
+                          alt="Linkedin"
+                          style={{ width: "60px" }}
+                        />
+                      </a>
                     </div>
                     <div style={{ fontSize: "18px" }}>
                       <span>Linkedin</span>
@@ -115,11 +132,17 @@ function ContactMe() {
                     </div>
                   </div>
                   <div className="mt-4 d-flex flex-row align-items-center">
-                    <div>
-                      <img
-                        src="https://img.icons8.com/glyph-neue/64/000000/github.png"
-                        alt="Github"
-                      />
+                    <div className="mt-4">
+                      <a
+                        href="https://github.com/smitdonda"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img
+                          src="https://img.icons8.com/glyph-neue/64/000000/github.png"
+                          alt="Github"
+                        />
+                      </a>
                     </div>
                     <div style={{ fontSize: "18px" }}>
                       <div>
