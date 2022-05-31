@@ -75,7 +75,7 @@ function ContactMe() {
                 <h4>Mail for any other queries </h4>
                 <div>
                   <div className="mt-4 d-flex flex-row align-items-center">
-                    <div>
+                    <div className="ml-1">
                       <a
                         href="https://mail.google.com/mail/u/0/#inbox?compose=new"
                         target="_blank"
@@ -84,7 +84,7 @@ function ContactMe() {
                         <img
                           src="https://img.icons8.com/color/48/000000/gmail-new.png"
                           alt="Gmail"
-                        />
+                        />&nbsp;
                       </a>
                     </div>
                     <div style={{ fontSize: "18px" }}>
@@ -141,6 +141,7 @@ function ContactMe() {
                         <img
                           src="https://img.icons8.com/glyph-neue/64/000000/github.png"
                           alt="Github"
+                          width="59px"
                         />
                       </a>
                     </div>
