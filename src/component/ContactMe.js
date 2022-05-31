@@ -113,7 +113,7 @@ function ContactMe() {
                           src="https://img.icons8.com/color/48/000000/linkedin.png"
                           alt="Linkedin"
                           style={{ width: "60px" }}
-                        />
+                        />&nbsp;
                       </a>
                     </div>
                     <div style={{ fontSize: "18px" }}>
@@ -142,7 +142,7 @@ function ContactMe() {
                           src="https://img.icons8.com/glyph-neue/64/000000/github.png"
                           alt="Github"
                           width="59px"
-                        />
+                        />&nbsp;
                       </a>
                     </div>
                     <div style={{ fontSize: "18px" }}>
