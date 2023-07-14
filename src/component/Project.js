@@ -12,7 +12,7 @@ function project() {
       <div className="d-flex flex-row justify-content-center align-items-center row mt-5 mb-5 ">
         <div className="col text-center">
           <a
-            href="https://products-hub776.netlify.app"
+            href="https://products-hub-123.vercel.app/login"
             target="_blank"
             rel="noreferrer"
           >
@@ -28,7 +28,7 @@ function project() {
           <div>
             <p style={{ fontSize: "22px" }}>
               <a
-                href="https://products-hub776.netlify.app"
+                href="https://products-hub-123.vercel.app/login"
                 target="_blank"
                 rel="noreferrer"
                 className="text-decoration-none"
@@ -70,7 +70,7 @@ function project() {
             </a>
             &nbsp;&nbsp;
             <a
-              href="https://products-hub776.netlify.app"
+              href="https://products-hub-123.vercel.app/login"
               className="btn btn-sm border border-light button shadow-none"
               target="_blank"
               rel="noreferrer"
@@ -84,7 +84,7 @@ function project() {
       <div className="d-flex flex-row justify-content-center align-items-center row mt-5 mb-5 ">
         <div className="col text-center">
           <a
-            href="https://eshop-spot.netlify.app/"
+            href="https://e-shop-spot-01.vercel.app"
             target="_blank"
             rel="noreferrer"
           >
@@ -100,7 +100,7 @@ function project() {
           <div>
             <p style={{ fontSize: "22px" }}>
               <a
-                href="https://eshop-spot.netlify.app//"
+                href="https://e-shop-spot-01.vercel.app"
                 target="_blank"
                 rel="noreferrer"
                 className="text-decoration-none"
@@ -142,7 +142,7 @@ function project() {
             </a>
             &nbsp;&nbsp;
             <a
-              href="https://eshop-spot.netlify.app/"
+              href="https://e-shop-spot-01.vercel.app"
               className="btn btn-sm border border-light button shadow-none"
               target="_blank"
               rel="noreferrer"
@@ -156,7 +156,7 @@ function project() {
       <div className="d-flex flex-row justify-content-center align-items-center row mt-5 mb-5 ">
         <div className="col text-center">
           <a
-            href="https://disney-plus-hotstar123.netlify.app"
+            href="https://disney-hotstar-virid.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -172,7 +172,7 @@ function project() {
           <div>
             <p style={{ fontSize: "22px" }}>
               <a
-                href="https://disney-plus-hotstar123.netlify.app"
+                href="https://disney-hotstar-virid.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="text-decoration-none"
@@ -214,7 +214,7 @@ function project() {
             </a>
             &nbsp;&nbsp;
             <a
-              href="https://disney-plus-hotstar123.netlify.app"
+              href="https://disney-hotstar-virid.vercel.app/"
               className="btn btn-sm border border-light button shadow-none"
               target="_blank"
               rel="noreferrer"
@@ -228,7 +228,7 @@ function project() {
       <div className="d-flex flex-row justify-content-center align-items-center row mt-5 mb-5 ">
         <div className="col text-center">
           <a
-            href="https://billing-book.netlify.app/"
+            href="https://inventory-billing-01.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -244,7 +244,7 @@ function project() {
           <div>
             <p style={{ fontSize: "22px" }}>
               <a
-                href="https://billing-book.netlify.app/"
+                href="https://inventory-billing-01.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="text-decoration-none"
@@ -286,7 +286,7 @@ function project() {
             </a>
             &nbsp;&nbsp;
             <a
-              href="https://billing-book.netlify.app/"
+              href="https://inventory-billing-01.vercel.app/"
               className="btn btn-sm border border-light button shadow-none"
               target="_blank"
               rel="noreferrer"
